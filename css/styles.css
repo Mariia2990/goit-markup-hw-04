@@ -422,7 +422,16 @@ img {
 
 .footer {
     background: #2e2f42;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-link-text {
     padding: 100px 0;
+    margin-right: 120px;
 }
 
 .footer-text {
@@ -450,4 +459,27 @@ img {
     color: #f4f4fd;
 }
 
+.container-social-media {
+    width: 208px;
+    height: 80px;
+}
+
+.text-social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-social-item {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-list {
+    width: 40px;
+    height: 40px;
+}
 /* -------------------- ----------------- */
