@@ -391,6 +391,7 @@ img {
 
 .portfolio-item {
     flex-basis: calc(1128px / 6);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .text-animation {
@@ -497,4 +498,13 @@ img {
     width: 40px;
     height: 40px;
 }
+
+.footer-svg:hover {
+    background-color: #31d0aa;
+}
+
+.footer-svg:focus {
+    background-color: #31d0aa;
+}
+
 /* -------------------- ----------------- */
